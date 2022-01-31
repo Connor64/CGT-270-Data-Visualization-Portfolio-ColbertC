@@ -1,0 +1,734 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.21.1217.2252                               -->
+<workbook original-version='18.1' source-build='2021.4.2 (20214.21.1217.2252)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Resolved Incidents (data_prep_-_flights_DataFile)' inline='true' name='federated.17c3nxf1qf9z9c1ddb29n1bgqrek' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='data_prep_-_flights_DataFile' name='excel-direct.03qgyqb11aehmh1ds789x17728ta'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='E:/School/Semester 2/CGT 270/Tableau Training/Part 2/data_prep_-_flights_DataFile.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='date' date-parse-format='MM/dd/yyyy' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[1/1/2015]' />
+            <value name='[10/1/2015]' />
+            <value name='[11/1/2015]' />
+            <value name='[12/1/2015]' />
+            <value name='[2/1/2015]' />
+            <value name='[3/1/2015]' />
+            <value name='[4/1/2015]' />
+            <value name='[5/1/2015]' />
+            <value name='[6/1/2015]' />
+            <value name='[7/1/2015]' />
+            <value name='[8/1/2015]' />
+            <value name='[9/1/2015]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Resolved Incidents].[1/1/2015]' />
+              <field name='[Resolved Incidents].[10/1/2015]' />
+              <field name='[Resolved Incidents].[11/1/2015]' />
+              <field name='[Resolved Incidents].[12/1/2015]' />
+              <field name='[Resolved Incidents].[2/1/2015]' />
+              <field name='[Resolved Incidents].[3/1/2015]' />
+              <field name='[Resolved Incidents].[4/1/2015]' />
+              <field name='[Resolved Incidents].[5/1/2015]' />
+              <field name='[Resolved Incidents].[6/1/2015]' />
+              <field name='[Resolved Incidents].[7/1/2015]' />
+              <field name='[Resolved Incidents].[8/1/2015]' />
+              <field name='[Resolved Incidents].[9/1/2015]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.03qgyqb11aehmh1ds789x17728ta' name='Resolved Incidents' table='[&apos;Resolved Incidents$&apos;]' type='table'>
+            <columns gridOrigin='B1:N35:no:B1:N35:1' header='no' lost='0' outcome='1' processed='321'>
+              <column datatype='string' name='Employee' ordinal='0' />
+              <column datatype='integer' name='1/1/2015' ordinal='1' />
+              <column datatype='integer' name='2/1/2015' ordinal='2' />
+              <column datatype='integer' name='3/1/2015' ordinal='3' />
+              <column datatype='integer' name='4/1/2015' ordinal='4' />
+              <column datatype='integer' name='5/1/2015' ordinal='5' />
+              <column datatype='integer' name='6/1/2015' ordinal='6' />
+              <column datatype='integer' name='7/1/2015' ordinal='7' />
+              <column datatype='integer' name='8/1/2015' ordinal='8' />
+              <column datatype='integer' name='9/1/2015' ordinal='9' />
+              <column datatype='integer' name='10/1/2015' ordinal='10' />
+              <column datatype='integer' name='11/1/2015' ordinal='11' />
+              <column datatype='integer' name='12/1/2015' ordinal='12' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='date' date-parse-format='MM/dd/yyyy' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[1/1/2015]' />
+            <value name='[10/1/2015]' />
+            <value name='[11/1/2015]' />
+            <value name='[12/1/2015]' />
+            <value name='[2/1/2015]' />
+            <value name='[3/1/2015]' />
+            <value name='[4/1/2015]' />
+            <value name='[5/1/2015]' />
+            <value name='[6/1/2015]' />
+            <value name='[7/1/2015]' />
+            <value name='[8/1/2015]' />
+            <value name='[9/1/2015]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Resolved Incidents].[1/1/2015]' />
+              <field name='[Resolved Incidents].[10/1/2015]' />
+              <field name='[Resolved Incidents].[11/1/2015]' />
+              <field name='[Resolved Incidents].[12/1/2015]' />
+              <field name='[Resolved Incidents].[2/1/2015]' />
+              <field name='[Resolved Incidents].[3/1/2015]' />
+              <field name='[Resolved Incidents].[4/1/2015]' />
+              <field name='[Resolved Incidents].[5/1/2015]' />
+              <field name='[Resolved Incidents].[6/1/2015]' />
+              <field name='[Resolved Incidents].[7/1/2015]' />
+              <field name='[Resolved Incidents].[8/1/2015]' />
+              <field name='[Resolved Incidents].[9/1/2015]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.03qgyqb11aehmh1ds789x17728ta' name='Resolved Incidents' table='[&apos;Resolved Incidents$&apos;]' type='table'>
+            <columns gridOrigin='B1:N35:no:B1:N35:1' header='no' lost='0' outcome='1' processed='321'>
+              <column datatype='string' name='Employee' ordinal='0' />
+              <column datatype='integer' name='1/1/2015' ordinal='1' />
+              <column datatype='integer' name='2/1/2015' ordinal='2' />
+              <column datatype='integer' name='3/1/2015' ordinal='3' />
+              <column datatype='integer' name='4/1/2015' ordinal='4' />
+              <column datatype='integer' name='5/1/2015' ordinal='5' />
+              <column datatype='integer' name='6/1/2015' ordinal='6' />
+              <column datatype='integer' name='7/1/2015' ordinal='7' />
+              <column datatype='integer' name='8/1/2015' ordinal='8' />
+              <column datatype='integer' name='9/1/2015' ordinal='9' />
+              <column datatype='integer' name='10/1/2015' ordinal='10' />
+              <column datatype='integer' name='11/1/2015' ordinal='11' />
+              <column datatype='integer' name='12/1/2015' ordinal='12' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Resolved Incidents]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;B1:N35:no:B1:N35:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>321</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employee</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Employee]</local-name>
+            <parent-name>[Resolved Incidents]</parent-name>
+            <remote-alias>Employee</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Location' datatype='string' name='[Employee - Split 1]' role='dimension' type='nominal' user:SplitFieldIndex='1' user:SplitFieldOrigin='[federated.17c3nxf1qf9z9c1ddb29n1bgqrek].[Employee]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Employee], &quot;-&quot;, 1 ) )' />
+      </column>
+      <column aggregation='Sum' caption='Employee ID' datatype='integer' name='[Employee - Split 2]' role='dimension' type='ordinal' user:SplitFieldIndex='2' user:SplitFieldOrigin='[federated.17c3nxf1qf9z9c1ddb29n1bgqrek].[Employee]'>
+        <calculation class='tableau' formula='INT( SPLIT( [Employee], &quot;-&quot;, 2 ) )' />
+      </column>
+      <column caption='Date' datatype='date' name='[Pivot Field Names]' role='dimension' type='ordinal' />
+      <column caption='Resolved_Incidents' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Resolved Incidents' datatype='table' name='[__tableau_internal_object_id__].[Resolved Incidents_101D37DFB8DF4A3AAACAD2523DAA96C8]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Resolved Incidents' id='Resolved Incidents_101D37DFB8DF4A3AAACAD2523DAA96C8'>
+            <properties context=''>
+              <relation name='Pivot' type='pivot'>
+                <columns>
+                  <column datatype='date' date-parse-format='MM/dd/yyyy' name='Pivot Field Names' />
+                  <column datatype='integer' name='Pivot Field Values' />
+                </columns>
+                <tag name='Pivot Field Names'>
+                  <value name='[1/1/2015]' />
+                  <value name='[10/1/2015]' />
+                  <value name='[11/1/2015]' />
+                  <value name='[12/1/2015]' />
+                  <value name='[2/1/2015]' />
+                  <value name='[3/1/2015]' />
+                  <value name='[4/1/2015]' />
+                  <value name='[5/1/2015]' />
+                  <value name='[6/1/2015]' />
+                  <value name='[7/1/2015]' />
+                  <value name='[8/1/2015]' />
+                  <value name='[9/1/2015]' />
+                </tag>
+                <groups>
+                  <group name='Pivot Field Values'>
+                    <field name='[Resolved Incidents].[1/1/2015]' />
+                    <field name='[Resolved Incidents].[10/1/2015]' />
+                    <field name='[Resolved Incidents].[11/1/2015]' />
+                    <field name='[Resolved Incidents].[12/1/2015]' />
+                    <field name='[Resolved Incidents].[2/1/2015]' />
+                    <field name='[Resolved Incidents].[3/1/2015]' />
+                    <field name='[Resolved Incidents].[4/1/2015]' />
+                    <field name='[Resolved Incidents].[5/1/2015]' />
+                    <field name='[Resolved Incidents].[6/1/2015]' />
+                    <field name='[Resolved Incidents].[7/1/2015]' />
+                    <field name='[Resolved Incidents].[8/1/2015]' />
+                    <field name='[Resolved Incidents].[9/1/2015]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.03qgyqb11aehmh1ds789x17728ta' name='Resolved Incidents' table='[&apos;Resolved Incidents$&apos;]' type='table'>
+                  <columns gridOrigin='B1:N35:no:B1:N35:1' header='no' lost='0' outcome='1' processed='321'>
+                    <column datatype='string' name='Employee' ordinal='0' />
+                    <column datatype='integer' name='1/1/2015' ordinal='1' />
+                    <column datatype='integer' name='2/1/2015' ordinal='2' />
+                    <column datatype='integer' name='3/1/2015' ordinal='3' />
+                    <column datatype='integer' name='4/1/2015' ordinal='4' />
+                    <column datatype='integer' name='5/1/2015' ordinal='5' />
+                    <column datatype='integer' name='6/1/2015' ordinal='6' />
+                    <column datatype='integer' name='7/1/2015' ordinal='7' />
+                    <column datatype='integer' name='8/1/2015' ordinal='8' />
+                    <column datatype='integer' name='9/1/2015' ordinal='9' />
+                    <column datatype='integer' name='10/1/2015' ordinal='10' />
+                    <column datatype='integer' name='11/1/2015' ordinal='11' />
+                    <column datatype='integer' name='12/1/2015' ordinal='12' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Tiers (data_prep_-_flights_DataFile)' inline='true' name='federated.0t362mp1adgc4p1ahva5p1yic2ej' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='data_prep_-_flights_DataFile' name='excel-direct.1b2u3vs137cik910nofg40s5x4zt'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='E:/School/Semester 2/CGT 270/Tableau Training/Part 2/data_prep_-_flights_DataFile.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1b2u3vs137cik910nofg40s5x4zt' name='Tiers' table='[Tiers$]' type='table'>
+          <columns gridOrigin='B1:N35:no:B1:N35:1' header='no' lost='0' outcome='1' processed='318'>
+            <column datatype='string' name='Employee' ordinal='0' />
+            <column datatype='integer' name='1/1/2015' ordinal='1' />
+            <column datatype='integer' name='2/1/2015' ordinal='2' />
+            <column datatype='integer' name='3/1/2015' ordinal='3' />
+            <column datatype='integer' name='4/1/2015' ordinal='4' />
+            <column datatype='integer' name='5/1/2015' ordinal='5' />
+            <column datatype='integer' name='6/1/2015' ordinal='6' />
+            <column datatype='integer' name='7/1/2015' ordinal='7' />
+            <column datatype='integer' name='8/1/2015' ordinal='8' />
+            <column datatype='integer' name='9/1/2015' ordinal='9' />
+            <column datatype='integer' name='10/1/2015' ordinal='10' />
+            <column datatype='integer' name='11/1/2015' ordinal='11' />
+            <column datatype='integer' name='12/1/2015' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1b2u3vs137cik910nofg40s5x4zt' name='Tiers' table='[Tiers$]' type='table'>
+          <columns gridOrigin='B1:N35:no:B1:N35:1' header='no' lost='0' outcome='1' processed='318'>
+            <column datatype='string' name='Employee' ordinal='0' />
+            <column datatype='integer' name='1/1/2015' ordinal='1' />
+            <column datatype='integer' name='2/1/2015' ordinal='2' />
+            <column datatype='integer' name='3/1/2015' ordinal='3' />
+            <column datatype='integer' name='4/1/2015' ordinal='4' />
+            <column datatype='integer' name='5/1/2015' ordinal='5' />
+            <column datatype='integer' name='6/1/2015' ordinal='6' />
+            <column datatype='integer' name='7/1/2015' ordinal='7' />
+            <column datatype='integer' name='8/1/2015' ordinal='8' />
+            <column datatype='integer' name='9/1/2015' ordinal='9' />
+            <column datatype='integer' name='10/1/2015' ordinal='10' />
+            <column datatype='integer' name='11/1/2015' ordinal='11' />
+            <column datatype='integer' name='12/1/2015' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Tiers]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;B1:N35:no:B1:N35:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>318</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employee</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Employee]</local-name>
+            <parent-name>[Tiers]</parent-name>
+            <remote-alias>Employee</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Tiers_4211641A362048F688C852E172C63E45]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1/1/2015</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1/1/2015]</local-name>
+            <parent-name>[Tiers]</parent-name>
+            <remote-alias>1/1/2015</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Tiers_4211641A362048F688C852E172C63E45]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2/1/2015</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2/1/2015]</local-name>
+            <parent-name>[Tiers]</parent-name>
+            <remote-alias>2/1/2015</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Tiers_4211641A362048F688C852E172C63E45]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3/1/2015</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3/1/2015]</local-name>
+            <parent-name>[Tiers]</parent-name>
+            <remote-alias>3/1/2015</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Tiers_4211641A362048F688C852E172C63E45]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4/1/2015</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[4/1/2015]</local-name>
+            <parent-name>[Tiers]</parent-name>
+            <remote-alias>4/1/2015</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Tiers_4211641A362048F688C852E172C63E45]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5/1/2015</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[5/1/2015]</local-name>
+            <parent-name>[Tiers]</parent-name>
+            <remote-alias>5/1/2015</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Tiers_4211641A362048F688C852E172C63E45]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>6/1/2015</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[6/1/2015]</local-name>
+            <parent-name>[Tiers]</parent-name>
+            <remote-alias>6/1/2015</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Tiers_4211641A362048F688C852E172C63E45]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>7/1/2015</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[7/1/2015]</local-name>
+            <parent-name>[Tiers]</parent-name>
+            <remote-alias>7/1/2015</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Tiers_4211641A362048F688C852E172C63E45]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>8/1/2015</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[8/1/2015]</local-name>
+            <parent-name>[Tiers]</parent-name>
+            <remote-alias>8/1/2015</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Tiers_4211641A362048F688C852E172C63E45]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>9/1/2015</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[9/1/2015]</local-name>
+            <parent-name>[Tiers]</parent-name>
+            <remote-alias>9/1/2015</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Tiers_4211641A362048F688C852E172C63E45]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>10/1/2015</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[10/1/2015]</local-name>
+            <parent-name>[Tiers]</parent-name>
+            <remote-alias>10/1/2015</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Tiers_4211641A362048F688C852E172C63E45]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>11/1/2015</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[11/1/2015]</local-name>
+            <parent-name>[Tiers]</parent-name>
+            <remote-alias>11/1/2015</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Tiers_4211641A362048F688C852E172C63E45]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>12/1/2015</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[12/1/2015]</local-name>
+            <parent-name>[Tiers]</parent-name>
+            <remote-alias>12/1/2015</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Tiers_4211641A362048F688C852E172C63E45]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Employee - Split 1' datatype='string' name='[Employee - Split 1]' role='dimension' type='nominal' user:SplitFieldIndex='1' user:SplitFieldOrigin='[federated.0t362mp1adgc4p1ahva5p1yic2ej].[Employee]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Employee], &quot;-&quot;, 1 ) )' />
+      </column>
+      <column caption='Employee - Split 2' datatype='string' name='[Employee - Split 2]' role='dimension' type='nominal' user:SplitFieldIndex='2' user:SplitFieldOrigin='[federated.0t362mp1adgc4p1ahva5p1yic2ej].[Employee]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Employee], &quot;-&quot;, 2 ) )' />
+      </column>
+      <column caption='Employee - Split 3' datatype='string' name='[Employee - Split 3]' role='dimension' type='nominal' user:SplitFieldIndex='3' user:SplitFieldOrigin='[federated.0t362mp1adgc4p1ahva5p1yic2ej].[Employee]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Employee], &quot;-&quot;, 3 ) )' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Tiers' datatype='table' name='[__tableau_internal_object_id__].[Tiers_4211641A362048F688C852E172C63E45]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Tiers' id='Tiers_4211641A362048F688C852E172C63E45'>
+            <properties context=''>
+              <relation connection='excel-direct.1b2u3vs137cik910nofg40s5x4zt' name='Tiers' table='[Tiers$]' type='table'>
+                <columns gridOrigin='B1:N35:no:B1:N35:1' header='no' lost='0' outcome='1' processed='318'>
+                  <column datatype='string' name='Employee' ordinal='0' />
+                  <column datatype='integer' name='1/1/2015' ordinal='1' />
+                  <column datatype='integer' name='2/1/2015' ordinal='2' />
+                  <column datatype='integer' name='3/1/2015' ordinal='3' />
+                  <column datatype='integer' name='4/1/2015' ordinal='4' />
+                  <column datatype='integer' name='5/1/2015' ordinal='5' />
+                  <column datatype='integer' name='6/1/2015' ordinal='6' />
+                  <column datatype='integer' name='7/1/2015' ordinal='7' />
+                  <column datatype='integer' name='8/1/2015' ordinal='8' />
+                  <column datatype='integer' name='9/1/2015' ordinal='9' />
+                  <column datatype='integer' name='10/1/2015' ordinal='10' />
+                  <column datatype='integer' name='11/1/2015' ordinal='11' />
+                  <column datatype='integer' name='12/1/2015' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Resolved Incidents (data_prep_-_flights_DataFile)' name='federated.17c3nxf1qf9z9c1ddb29n1bgqrek' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17c3nxf1qf9z9c1ddb29n1bgqrek'>
+            <column aggregation='Sum' caption='Employee ID' datatype='integer' name='[Employee - Split 2]' role='dimension' type='ordinal' user:SplitFieldIndex='2' user:SplitFieldOrigin='[federated.17c3nxf1qf9z9c1ddb29n1bgqrek].[Employee]'>
+              <calculation class='tableau' formula='INT( SPLIT( [Employee], &quot;-&quot;, 2 ) )' />
+            </column>
+            <column datatype='string' name='[Employee]' role='dimension' type='nominal' />
+            <column caption='Resolved_Incidents' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Employee - Split 2]' derivation='None' name='[none:Employee - Split 2:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.17c3nxf1qf9z9c1ddb29n1bgqrek].[none:Employee - Split 2:ok]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.17c3nxf1qf9z9c1ddb29n1bgqrek].[sum:Pivot Field Values:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.17c3nxf1qf9z9c1ddb29n1bgqrek].[none:Employee - Split 2:ok]</rows>
+        <cols>[federated.17c3nxf1qf9z9c1ddb29n1bgqrek].[sum:Pivot Field Values:qk]</cols>
+      </table>
+      <simple-id uuid='{3744EDEE-98B8-491F-9F99-6AB6ADE68107}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F282CE41-F841-4B62-84DB-4F72DEC1D0D0}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
