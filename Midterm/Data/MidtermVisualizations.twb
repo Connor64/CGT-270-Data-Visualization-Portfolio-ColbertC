@@ -1,0 +1,749 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.21.1217.2252                               -->
+<workbook original-version='18.1' source-build='2021.4.2 (20214.21.1217.2252)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column alias='32.14' caption='Average Temp (1895-2016)' datatype='real' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='32.13529508'>
+        <calculation class='tableau' formula='32.13529508' />
+        <aliases>
+          <alias key='32.13529508' value='32.14' />
+        </aliases>
+        <members>
+          <member alias='32.14' value='32.13529508' />
+        </members>
+      </column>
+    </datasource>
+    <datasource caption='1895-2016 (PunxsutawneyPhil_MidtermData)' inline='true' name='federated.1xp8trs1kyxpdy175y4ei1quezoo' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='PunxsutawneyPhil_MidtermData' name='excel-direct.1rcj373157ris6148is8b19mtwl5'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/cjcol/OneDrive - purdue.edu/Spring 2022 (Semester 2)/CGT 270/CGT-270-Data-Visualization-Portfolio-ColbertC/Midterm/Data/PunxsutawneyPhil_MidtermData.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1rcj373157ris6148is8b19mtwl5' name='1895-2016' table='[&apos;1895-2016$&apos;]' type='table'>
+          <columns gridOrigin='A1:L123:no:A1:L123:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='real' name='Celsius' ordinal='1' />
+            <column datatype='real' name='Fahrenheit' ordinal='2' />
+            <column datatype='string' name='Punxsutawney Phil' ordinal='3' />
+            <column datatype='real' name='February Average Temperature' ordinal='4' />
+            <column datatype='real' name='February Average Temperature (Northeast)' ordinal='5' />
+            <column datatype='real' name='February Average Temperature (Midwest)' ordinal='6' />
+            <column datatype='real' name='February Average Temperature (Pennsylvania)' ordinal='7' />
+            <column datatype='real' name='March Average Temperature' ordinal='8' />
+            <column datatype='real' name='March Average Temperature (Northeast)' ordinal='9' />
+            <column datatype='real' name='March Average Temperature (Midwest)' ordinal='10' />
+            <column datatype='real' name='March Average Temperature (Pennsylvania)' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1rcj373157ris6148is8b19mtwl5' name='1895-2016' table='[&apos;1895-2016$&apos;]' type='table'>
+          <columns gridOrigin='A1:L123:no:A1:L123:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='real' name='Celsius' ordinal='1' />
+            <column datatype='real' name='Fahrenheit' ordinal='2' />
+            <column datatype='string' name='Punxsutawney Phil' ordinal='3' />
+            <column datatype='real' name='February Average Temperature' ordinal='4' />
+            <column datatype='real' name='February Average Temperature (Northeast)' ordinal='5' />
+            <column datatype='real' name='February Average Temperature (Midwest)' ordinal='6' />
+            <column datatype='real' name='February Average Temperature (Pennsylvania)' ordinal='7' />
+            <column datatype='real' name='March Average Temperature' ordinal='8' />
+            <column datatype='real' name='March Average Temperature (Northeast)' ordinal='9' />
+            <column datatype='real' name='March Average Temperature (Midwest)' ordinal='10' />
+            <column datatype='real' name='March Average Temperature (Pennsylvania)' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[1895-2016]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L123:no:A1:L123:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[1895-2016]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1895-2016_EF168C3974C44CE58C8742D847831CFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Celsius</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Celsius]</local-name>
+            <parent-name>[1895-2016]</parent-name>
+            <remote-alias>Celsius</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1895-2016_EF168C3974C44CE58C8742D847831CFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fahrenheit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fahrenheit]</local-name>
+            <parent-name>[1895-2016]</parent-name>
+            <remote-alias>Fahrenheit</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1895-2016_EF168C3974C44CE58C8742D847831CFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Punxsutawney Phil</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Punxsutawney Phil]</local-name>
+            <parent-name>[1895-2016]</parent-name>
+            <remote-alias>Punxsutawney Phil</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1895-2016_EF168C3974C44CE58C8742D847831CFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>February Average Temperature</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[February Average Temperature]</local-name>
+            <parent-name>[1895-2016]</parent-name>
+            <remote-alias>February Average Temperature</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1895-2016_EF168C3974C44CE58C8742D847831CFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>February Average Temperature (Northeast)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[February Average Temperature (Northeast)]</local-name>
+            <parent-name>[1895-2016]</parent-name>
+            <remote-alias>February Average Temperature (Northeast)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1895-2016_EF168C3974C44CE58C8742D847831CFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>February Average Temperature (Midwest)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[February Average Temperature (Midwest)]</local-name>
+            <parent-name>[1895-2016]</parent-name>
+            <remote-alias>February Average Temperature (Midwest)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1895-2016_EF168C3974C44CE58C8742D847831CFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>February Average Temperature (Pennsylvania)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[February Average Temperature (Pennsylvania)]</local-name>
+            <parent-name>[1895-2016]</parent-name>
+            <remote-alias>February Average Temperature (Pennsylvania)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1895-2016_EF168C3974C44CE58C8742D847831CFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>March Average Temperature</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[March Average Temperature]</local-name>
+            <parent-name>[1895-2016]</parent-name>
+            <remote-alias>March Average Temperature</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1895-2016_EF168C3974C44CE58C8742D847831CFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>March Average Temperature (Northeast)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[March Average Temperature (Northeast)]</local-name>
+            <parent-name>[1895-2016]</parent-name>
+            <remote-alias>March Average Temperature (Northeast)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1895-2016_EF168C3974C44CE58C8742D847831CFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>March Average Temperature (Midwest)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[March Average Temperature (Midwest)]</local-name>
+            <parent-name>[1895-2016]</parent-name>
+            <remote-alias>March Average Temperature (Midwest)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1895-2016_EF168C3974C44CE58C8742D847831CFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>March Average Temperature (Pennsylvania)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[March Average Temperature (Pennsylvania)]</local-name>
+            <parent-name>[1895-2016]</parent-name>
+            <remote-alias>March Average Temperature (Pennsylvania)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1895-2016_EF168C3974C44CE58C8742D847831CFC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.1xp8trs1kyxpdy175y4ei1quezoo].[max:Fahrenheit:qk]&quot;' value='High' />
+          <alias key='&quot;[federated.1xp8trs1kyxpdy175y4ei1quezoo].[min:Fahrenheit:qk]&quot;' value='Low' />
+          <alias key='&quot;[Parameters].[Parameter 1]&quot;' value='Average Temperature of All Years' />
+        </aliases>
+      </column>
+      <column caption='Average Temperature Between 1895-2016' datatype='real' name='[Calculation_3094254427485835264]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Fahrenheit])' />
+      </column>
+      <column datatype='real' name='[Fahrenheit]' role='measure' type='quantitative' />
+      <column datatype='real' name='[February Average Temperature]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='1895-2016' datatype='table' name='[__tableau_internal_object_id__].[1895-2016_EF168C3974C44CE58C8742D847831CFC]' role='measure' type='quantitative' />
+      <column-instance column='[Fahrenheit]' derivation='Avg' name='[avg:Fahrenheit:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fahrenheit]' derivation='Max' name='[max:Fahrenheit:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fahrenheit]' derivation='Min' name='[min:Fahrenheit:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[February Average Temperature]' derivation='Min' name='[min:February Average Temperature:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Fahrenheit]' derivation='Sum' name='[sum:Fahrenheit:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[February Average Temperature]' derivation='Sum' name='[sum:February Average Temperature:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_3094254427485835264]' derivation='User' name='[usr:Calculation_3094254427485835264:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='0.69469' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' parameter-percentage='0.30531' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1xp8trs1kyxpdy175y4ei1quezoo].[usr:Calculation_3094254427485835264:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1xp8trs1kyxpdy175y4ei1quezoo].[usr:Calculation_3094254427485835264:qk]:1&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1xp8trs1kyxpdy175y4ei1quezoo]&quot;</bucket>
+            </map>
+            <map to='#80b0d5'>
+              <bucket>&quot;[federated.1xp8trs1kyxpdy175y4ei1quezoo].[min:Fahrenheit:qk]&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;[federated.1xp8trs1kyxpdy175y4ei1quezoo].[avg:Fahrenheit:qk]&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;[federated.1xp8trs1kyxpdy175y4ei1quezoo].[max:Fahrenheit:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1xp8trs1kyxpdy175y4ei1quezoo].[avg:Fahrenheit:qk]:1&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1xp8trs1kyxpdy175y4ei1quezoo].[min:February Average Temperature:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1xp8trs1kyxpdy175y4ei1quezoo].[sum:February Average Temperature:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[Parameters].[Parameter 1]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1xp8trs1kyxpdy175y4ei1quezoo].[sum:Fahrenheit:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <datasource-dependencies datasource='Parameters'>
+        <column alias='32.14' caption='Average Temp (1895-2016)' datatype='real' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='32.13529508'>
+          <calculation class='tableau' formula='32.13529508' />
+          <aliases>
+            <alias key='32.13529508' value='32.14' />
+          </aliases>
+        </column>
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='1895-2016' id='1895-2016_EF168C3974C44CE58C8742D847831CFC'>
+            <properties context=''>
+              <relation connection='excel-direct.1rcj373157ris6148is8b19mtwl5' name='1895-2016' table='[&apos;1895-2016$&apos;]' type='table'>
+                <columns gridOrigin='A1:L123:no:A1:L123:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='Year' ordinal='0' />
+                  <column datatype='real' name='Celsius' ordinal='1' />
+                  <column datatype='real' name='Fahrenheit' ordinal='2' />
+                  <column datatype='string' name='Punxsutawney Phil' ordinal='3' />
+                  <column datatype='real' name='February Average Temperature' ordinal='4' />
+                  <column datatype='real' name='February Average Temperature (Northeast)' ordinal='5' />
+                  <column datatype='real' name='February Average Temperature (Midwest)' ordinal='6' />
+                  <column datatype='real' name='February Average Temperature (Pennsylvania)' ordinal='7' />
+                  <column datatype='real' name='March Average Temperature' ordinal='8' />
+                  <column datatype='real' name='March Average Temperature (Northeast)' ordinal='9' />
+                  <column datatype='real' name='March Average Temperature (Midwest)' ordinal='10' />
+                  <column datatype='real' name='March Average Temperature (Pennsylvania)' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000'>Temperature in 1895-2016 Compared to Average Temperature by Punxsutawney Phil&apos;s Shadow</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='1895-2016 (PunxsutawneyPhil_MidtermData)' name='federated.1xp8trs1kyxpdy175y4ei1quezoo' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column alias='32.14' caption='Average Temp (1895-2016)' datatype='real' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='32.13529508'>
+              <calculation class='tableau' formula='32.13529508' />
+              <aliases>
+                <alias key='32.13529508' value='32.14' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1xp8trs1kyxpdy175y4ei1quezoo'>
+            <column datatype='real' name='[Fahrenheit]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Punxsutawney Phil]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Fahrenheit]' derivation='Avg' name='[avg:Fahrenheit:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Punxsutawney Phil]' derivation='None' name='[none:Punxsutawney Phil:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fahrenheit]' derivation='Sum' name='[sum:Fahrenheit:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1xp8trs1kyxpdy175y4ei1quezoo].[:Measure Names]'>
+            <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xp8trs1kyxpdy175y4ei1quezoo].[sum:Fahrenheit:qk]&quot;' user:op='manual' />
+          </filter>
+          <filter class='categorical' column='[federated.1xp8trs1kyxpdy175y4ei1quezoo].[none:Punxsutawney Phil:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Punxsutawney Phil:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Punxsutawney Phil:nk]' member='&quot;No Record&quot;' />
+                <groupfilter function='member' level='[none:Punxsutawney Phil:nk]' member='&quot;Partial Shadow&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1xp8trs1kyxpdy175y4ei1quezoo].[none:Punxsutawney Phil:nk]</column>
+            <column>[federated.1xp8trs1kyxpdy175y4ei1quezoo].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.1xp8trs1kyxpdy175y4ei1quezoo].[avg:Fahrenheit:qk]' field-type='quantitative' scope='rows' type='space' />
+            <encoding attr='space' class='0' domain-expand='false' field='[Parameters].[Parameter 1]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.1xp8trs1kyxpdy175y4ei1quezoo].[avg:Fahrenheit:qk]' scope='rows' value='Average Temp. (1895-2016)' />
+            <format attr='title' class='0' field='[Parameters].[Parameter 1]' scope='rows' value='' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1xp8trs1kyxpdy175y4ei1quezoo].[avg:Fahrenheit:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[Parameters].[Parameter 1]' value='Total Average'>
+              <formatted-text>
+                <run>Total Average</run>
+              </formatted-text>
+            </format>
+            <format attr='color' field='[federated.1xp8trs1kyxpdy175y4ei1quezoo].[avg:Fahrenheit:qk]' value='Average Temp.'>
+              <formatted-text>
+                <run>Average Temp.</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[Parameters].[Parameter 1]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[Parameters].[Parameter 1]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1xp8trs1kyxpdy175y4ei1quezoo].[avg:Fahrenheit:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.1xp8trs1kyxpdy175y4ei1quezoo].[avg:Fahrenheit:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.1xp8trs1kyxpdy175y4ei1quezoo].[none:Punxsutawney Phil:nk] * ([federated.1xp8trs1kyxpdy175y4ei1quezoo].[avg:Fahrenheit:qk] + [Parameters].[Parameter 1]))</rows>
+        <cols>[federated.1xp8trs1kyxpdy175y4ei1quezoo].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{B3FC8180-A4F0-4C91-AE66-23FFEF71D3BB}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1xp8trs1kyxpdy175y4ei1quezoo].[avg:Fahrenheit:qk]' type='color' />
+            <card pane-specification-id='1' param='[Parameters].[Parameter 1]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1xp8trs1kyxpdy175y4ei1quezoo].[:Measure Names]</field>
+            <field>[federated.1xp8trs1kyxpdy175y4ei1quezoo].[avg:Fahrenheit:qk]</field>
+            <field>[federated.1xp8trs1kyxpdy175y4ei1quezoo].[none:Punxsutawney Phil:nk]</field>
+            <field>[federated.1xp8trs1kyxpdy175y4ei1quezoo].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8A6E3FF0-079F-4751-8288-A80EB33FB2C7}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

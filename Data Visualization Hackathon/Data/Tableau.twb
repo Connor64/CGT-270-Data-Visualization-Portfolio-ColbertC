@@ -1,0 +1,562 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.21.1217.2252                               -->
+<workbook original-version='18.1' source-build='2021.4.2 (20214.21.1217.2252)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='HobbyTime_Data (HackathonData_Mined)' inline='true' name='federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='HackathonData_Mined' name='excel-direct.1q0adq90yxkqx118b1owj0hcd239'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/cjcol/OneDrive - purdue.edu/Semester 2 (Spring 2022)/CGT 270/CGT-270-Data-Visualization-Portfolio-ColbertC/Data Visualization Hackathon/HackathonData_Mined.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1q0adq90yxkqx118b1owj0hcd239' name='HobbyTime_Data' table='[HobbyTime_Data$]' type='table'>
+          <columns gridOrigin='A1:O660:no:A1:O660:0' header='yes' outcome='2'>
+            <column datatype='string' name='Time Spent Doing Hobby' ordinal='0' />
+            <column datatype='integer' name='Less than $10,000' ordinal='1' />
+            <column datatype='integer' name='$10,000 - $19,999' ordinal='2' />
+            <column datatype='integer' name='$20,000 - $39,999' ordinal='3' />
+            <column datatype='integer' name='$40,000 - $59,999' ordinal='4' />
+            <column datatype='integer' name='$60,000 - $79,999' ordinal='5' />
+            <column datatype='integer' name='$80,000 - $99,999' ordinal='6' />
+            <column datatype='integer' name='$100,000 - $119,999' ordinal='7' />
+            <column datatype='integer' name='$120,000 - $139,999' ordinal='8' />
+            <column datatype='integer' name='$140,000 - $159,999' ordinal='9' />
+            <column datatype='integer' name='$160,000 - $179,999' ordinal='10' />
+            <column datatype='integer' name='$180,000 - $199,999' ordinal='11' />
+            <column datatype='integer' name='$200,000 - $219,999' ordinal='12' />
+            <column datatype='integer' name='$220,000 - $239,999' ordinal='13' />
+            <column datatype='integer' name='$240,000 or more' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1q0adq90yxkqx118b1owj0hcd239' name='HobbyTime_Data' table='[HobbyTime_Data$]' type='table'>
+          <columns gridOrigin='A1:O660:no:A1:O660:0' header='yes' outcome='2'>
+            <column datatype='string' name='Time Spent Doing Hobby' ordinal='0' />
+            <column datatype='integer' name='Less than $10,000' ordinal='1' />
+            <column datatype='integer' name='$10,000 - $19,999' ordinal='2' />
+            <column datatype='integer' name='$20,000 - $39,999' ordinal='3' />
+            <column datatype='integer' name='$40,000 - $59,999' ordinal='4' />
+            <column datatype='integer' name='$60,000 - $79,999' ordinal='5' />
+            <column datatype='integer' name='$80,000 - $99,999' ordinal='6' />
+            <column datatype='integer' name='$100,000 - $119,999' ordinal='7' />
+            <column datatype='integer' name='$120,000 - $139,999' ordinal='8' />
+            <column datatype='integer' name='$140,000 - $159,999' ordinal='9' />
+            <column datatype='integer' name='$160,000 - $179,999' ordinal='10' />
+            <column datatype='integer' name='$180,000 - $199,999' ordinal='11' />
+            <column datatype='integer' name='$200,000 - $219,999' ordinal='12' />
+            <column datatype='integer' name='$220,000 - $239,999' ordinal='13' />
+            <column datatype='integer' name='$240,000 or more' ordinal='14' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[HobbyTime_Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:O660:no:A1:O660:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time Spent Doing Hobby</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Time Spent Doing Hobby]</local-name>
+            <parent-name>[HobbyTime_Data]</parent-name>
+            <remote-alias>Time Spent Doing Hobby</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Less than $10,000</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Less than $10,000]</local-name>
+            <parent-name>[HobbyTime_Data]</parent-name>
+            <remote-alias>Less than $10,000</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$10,000 - $19,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$10,000 - $19,999]</local-name>
+            <parent-name>[HobbyTime_Data]</parent-name>
+            <remote-alias>$10,000 - $19,999</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$20,000 - $39,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$20,000 - $39,999]</local-name>
+            <parent-name>[HobbyTime_Data]</parent-name>
+            <remote-alias>$20,000 - $39,999</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$40,000 - $59,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$40,000 - $59,999]</local-name>
+            <parent-name>[HobbyTime_Data]</parent-name>
+            <remote-alias>$40,000 - $59,999</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$60,000 - $79,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$60,000 - $79,999]</local-name>
+            <parent-name>[HobbyTime_Data]</parent-name>
+            <remote-alias>$60,000 - $79,999</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$80,000 - $99,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$80,000 - $99,999]</local-name>
+            <parent-name>[HobbyTime_Data]</parent-name>
+            <remote-alias>$80,000 - $99,999</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$100,000 - $119,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$100,000 - $119,999]</local-name>
+            <parent-name>[HobbyTime_Data]</parent-name>
+            <remote-alias>$100,000 - $119,999</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$120,000 - $139,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$120,000 - $139,999]</local-name>
+            <parent-name>[HobbyTime_Data]</parent-name>
+            <remote-alias>$120,000 - $139,999</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$140,000 - $159,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$140,000 - $159,999]</local-name>
+            <parent-name>[HobbyTime_Data]</parent-name>
+            <remote-alias>$140,000 - $159,999</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$160,000 - $179,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$160,000 - $179,999]</local-name>
+            <parent-name>[HobbyTime_Data]</parent-name>
+            <remote-alias>$160,000 - $179,999</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$180,000 - $199,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$180,000 - $199,999]</local-name>
+            <parent-name>[HobbyTime_Data]</parent-name>
+            <remote-alias>$180,000 - $199,999</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$200,000 - $219,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$200,000 - $219,999]</local-name>
+            <parent-name>[HobbyTime_Data]</parent-name>
+            <remote-alias>$200,000 - $219,999</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$220,000 - $239,999</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$220,000 - $239,999]</local-name>
+            <parent-name>[HobbyTime_Data]</parent-name>
+            <remote-alias>$220,000 - $239,999</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>$240,000 or more</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[$240,000 or more]</local-name>
+            <parent-name>[HobbyTime_Data]</parent-name>
+            <remote-alias>$240,000 or more</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='$240,000 Or More' datatype='integer' name='[$240,000 or more]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='HobbyTime_Data' datatype='table' name='[__tableau_internal_object_id__].[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='HobbyTime_Data' id='HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C'>
+            <properties context=''>
+              <relation connection='excel-direct.1q0adq90yxkqx118b1owj0hcd239' name='HobbyTime_Data' table='[HobbyTime_Data$]' type='table'>
+                <columns gridOrigin='A1:O660:no:A1:O660:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Time Spent Doing Hobby' ordinal='0' />
+                  <column datatype='integer' name='Less than $10,000' ordinal='1' />
+                  <column datatype='integer' name='$10,000 - $19,999' ordinal='2' />
+                  <column datatype='integer' name='$20,000 - $39,999' ordinal='3' />
+                  <column datatype='integer' name='$40,000 - $59,999' ordinal='4' />
+                  <column datatype='integer' name='$60,000 - $79,999' ordinal='5' />
+                  <column datatype='integer' name='$80,000 - $99,999' ordinal='6' />
+                  <column datatype='integer' name='$100,000 - $119,999' ordinal='7' />
+                  <column datatype='integer' name='$120,000 - $139,999' ordinal='8' />
+                  <column datatype='integer' name='$140,000 - $159,999' ordinal='9' />
+                  <column datatype='integer' name='$160,000 - $179,999' ordinal='10' />
+                  <column datatype='integer' name='$180,000 - $199,999' ordinal='11' />
+                  <column datatype='integer' name='$200,000 - $219,999' ordinal='12' />
+                  <column datatype='integer' name='$220,000 - $239,999' ordinal='13' />
+                  <column datatype='integer' name='$240,000 or more' ordinal='14' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HobbyTime_Data (HackathonData_Mined)' name='federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc'>
+            <column datatype='integer' name='[$10,000 - $19,999]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[$100,000 - $119,999]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[$120,000 - $139,999]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[$140,000 - $159,999]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[$160,000 - $179,999]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[$180,000 - $199,999]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[$20,000 - $39,999]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[$200,000 - $219,999]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[$220,000 - $239,999]' role='measure' type='quantitative' />
+            <column caption='$240,000 Or More' datatype='integer' name='[$240,000 or more]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[$40,000 - $59,999]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[$60,000 - $79,999]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[$80,000 - $99,999]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Less than $10,000]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='HobbyTime_Data' datatype='integer' name='[__tableau_internal_object_id__].[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Time Spent Doing Hobby]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='HobbyTime_Data' datatype='table' name='[__tableau_internal_object_id__].[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Time Spent Doing Hobby]' derivation='None' name='[none:Time Spent Doing Hobby:nk]' pivot='key' type='nominal' />
+            <column-instance column='[$10,000 - $19,999]' derivation='Sum' name='[sum:$10,000 - $19,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[$100,000 - $119,999]' derivation='Sum' name='[sum:$100,000 - $119,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[$120,000 - $139,999]' derivation='Sum' name='[sum:$120,000 - $139,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[$140,000 - $159,999]' derivation='Sum' name='[sum:$140,000 - $159,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[$160,000 - $179,999]' derivation='Sum' name='[sum:$160,000 - $179,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[$180,000 - $199,999]' derivation='Sum' name='[sum:$180,000 - $199,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[$20,000 - $39,999]' derivation='Sum' name='[sum:$20,000 - $39,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[$200,000 - $219,999]' derivation='Sum' name='[sum:$200,000 - $219,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[$220,000 - $239,999]' derivation='Sum' name='[sum:$220,000 - $239,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[$240,000 or more]' derivation='Sum' name='[sum:$240,000 or more:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[$40,000 - $59,999]' derivation='Sum' name='[sum:$40,000 - $59,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[$60,000 - $79,999]' derivation='Sum' name='[sum:$60,000 - $79,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[$80,000 - $99,999]' derivation='Sum' name='[sum:$80,000 - $99,999:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Less than $10,000]' derivation='Sum' name='[sum:Less than $10,000:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[__tableau_internal_object_id__].[cnt:HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$10,000 - $19,999:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$100,000 - $119,999:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$120,000 - $139,999:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$140,000 - $159,999:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$160,000 - $179,999:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$180,000 - $199,999:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$20,000 - $39,999:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$200,000 - $219,999:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$220,000 - $239,999:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$240,000 or more:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$40,000 - $59,999:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$60,000 - $79,999:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$80,000 - $99,999:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:Less than $10,000:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[__tableau_internal_object_id__].[cnt:HobbyTime!Data_72B513E376224D6A80146C53CE1DE43C:qk]</column>
+            <column>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$10,000 - $19,999:qk]</column>
+            <column>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$100,000 - $119,999:qk]</column>
+            <column>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$120,000 - $139,999:qk]</column>
+            <column>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$140,000 - $159,999:qk]</column>
+            <column>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$160,000 - $179,999:qk]</column>
+            <column>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$180,000 - $199,999:qk]</column>
+            <column>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$20,000 - $39,999:qk]</column>
+            <column>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$200,000 - $219,999:qk]</column>
+            <column>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$220,000 - $239,999:qk]</column>
+            <column>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$240,000 or more:qk]</column>
+            <column>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$40,000 - $59,999:qk]</column>
+            <column>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$60,000 - $79,999:qk]</column>
+            <column>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:$80,000 - $99,999:qk]</column>
+            <column>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[sum:Less than $10,000:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[Multiple Values]' scope='rows' value='People' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[Multiple Values]</rows>
+        <cols>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[none:Time Spent Doing Hobby:nk]</cols>
+      </table>
+      <simple-id uuid='{7DEF6AF2-CD78-43AB-A241-7E6982E73091}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1xpd9vq0qrx6oi1h6nkri1bg1zkc].[none:Time Spent Doing Hobby:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{EA845B66-956D-4316-B6E4-F98915B8568F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      QmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>

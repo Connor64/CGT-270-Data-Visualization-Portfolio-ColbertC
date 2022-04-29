@@ -1,0 +1,7 @@
+- Parse Data
+- Mine Data
+- Draft Visualizations
+- Sketch Visualizations
+- Finalize Visualizations in Tableau
+- Create presentation w/ problem statement, questions, and conclusion
+- Work on final report
